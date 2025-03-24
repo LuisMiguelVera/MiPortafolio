@@ -14,7 +14,7 @@ header {
 
 }
 .navbar{
-    background-image: url("/circuito2.gif");
+    background-image: url("circuito2.gif");
     background-size: cover;  /* Ajusta la imagen para cubrir toda la pantalla */
     background-position: center;
 
@@ -51,7 +51,7 @@ header nav ul li a:hover {
   /*  align-items: center; */
     display: flex;
     height: 65vh; 
-    background-image: url("/lap1.jpg");
+    background-image: url("lap1.jpg");
     background-size: cover;  /* Ajusta la imagen para cubrir toda la pantalla */
     background-position: center;  /* Centra la imagen */
     color: #fff;
@@ -294,7 +294,7 @@ footer p {
 
 /* Estilos para habilidades */
 .skills {
-    background-image: url("/lluvia.gif");
+    background-image: url("lluvia.gif");
 }
 
 .skill-item {
