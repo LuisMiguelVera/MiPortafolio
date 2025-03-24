@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> <!-- Vincula la librería de animaciones aquí -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"> <!-- Vincula la fuente Roboto aquí -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Vincula la librería de íconos aquí -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!-- Vincula la librería de Bootstrap aquí -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> <!-- Vincula la hoja de estilos aquí -->
+    <link rel="icon" href="/icon.png" type="image/png">
+</head>
+
+<body>
+    <header>
+         <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-dark ">
+            <div class="container-fluid">
+                <!-- Logo o nombre del portafolio -->
+                <a class="navbar-brand" img src="/icon.png" alt="Logo" class="logo"></a>
+
+                <!-- Botón para móviles -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Enlaces del navbar -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <section class="intro py-5"> 
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Sección de enlaces sociales -->
+                <div class="col-md-3 ">
+                    <h3>Sígueme en:</h3>
+                    <div class="social-links d-flex flex-column">
+                        <a href="https://www.linkedin.com/in/ejemplo" class="btn btn-primary mb-2">LinkedIn</a>
+                        <a href="https://www.github.com/ejemplo" class="btn btn-primary">GitHub</a>
+                        <a href="https://www.linkedin.com/in/ejemplo" class="btn btn-primary mb-2">WhatsApp</a>
+                    </div>
+                </div>
+    
+                <!-- Sección central con imagen y texto -->
+                <div class="central col-md-9 d-flex align-items-center">
+                    <div class="miky animate__animated animate__slideInRight ">
+                        <h1 class="animate__animated animate__slideInRight ">¡Hola, soy Miguel Vera!</h1>
+                        <img src="VCLM.jpeg" alt="Imagen de presentación" class="img-fluid rounded-circle ms-3">
+
+                        <div class="fullstack">
+                            <p>Desarrollador Full Stack | Ingeniero en Telecomunicaciones Sistemas y Electrónica | Apasionado por la tecnología</p>
+
+                        </div>
+
+                        
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <h2>Sobre mí</h2>
+            <p>Soy un apasionado desarrollador full stack con formación en ingeniería, que encontró en la tecnología la perfecta unión entre lógica y creatividad. Me especializo en crear soluciones digitales que no solo funcionen, sino que también impacten positivamente en las personas.</p>
+
+            <p>Desde que escribí mi primera línea de código en 2022, supe que quería dedicarme a transformar ideas en realidad a través de la programación. Hoy, combino mis conocimientos en telecomunicaciones con desarrollo web para construir puentes entre el mundo físico y el digital.</p>
+
+            <p>Me considero una persona curiosa, autodidacta y con una gran capacidad de adaptación. Siempre estoy en la búsqueda de nuevos retos que me permitan seguir creciendo como profesional y como persona.</p>
+
+            <p>¿Buscas un desarrollador que combine habilidades técnicas con pensamiento estratégico? Trabajemos juntos en tu próximo proyecto.
+
+            Si necesitas una solución a medida o quieres intercambiar ideas sobre tecnología, ¡hablemos!</p>
+
+        </div>
+    </section>
+
+    <section id="projects" class="projects py-5 ">
+        <div class="container">
+            <h2 class="text-center mb-5">Mis Proyectos</h2>
+            
+            <div id="proyectosCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner bg-white p-4 rounded-3 shadow">
+                    <!-- Proyecto 1 -->
+                    <div class="carousel-item active">
+                        <div class="row align-items-center g-4">
+                            <div class="col-lg-7">
+                                <img src="/captura 3d-garden.png" class="d-block w-100 rounded-3 shadow-sm" alt="Proyecto 1">
+                            </div>
+                            <div class="col-lg-5 ps-lg-4">
+                                <h3 class="mb-3">3D-GARDEN</h3>
+                                <p class="mb-4">3D-Garden es una pagina dedicada a la venta de macetas hechas en 3-D con diseños divertidos y personalizados. Utilizamos tecnologías como Js,HTML5, CSS, bootstrap, para el frontend, asi como Java y Springboot para el backend sin olvidar SQL para la base de datos.</p>
+                                <a href="https://github.com/Yairgg95/3D-Garden-web" class="btn btn-dark btn-lg" target="_blank">
+                                    <i class="fab fa-github me-2"></i> Ver código
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Proyecto 2 -->
+                    <div class="carousel-item">
+                        <div class="row align-items-center g-4">
+                            <div class="col-lg-7">
+                                <img src="/Hyperun.png" class="d-block w-100 rounded-3 shadow-sm" alt="Proyecto 2">
+                            </div>
+                            <div class="col-lg-5 ps-lg-4">
+                                <h3 class="mb-3">HypeRun</h3>
+                                <p class="mb-4">Tienda deportiva con los mejores modelos de tenis deportivos para todas las edades y generos. Se logro realizar esta e-comerce en menos de 24 hrs y gracias a la implementacion de tecnologías como Java Script, HTML5, CSS y Bootstrap para hacerlo responsive.</p>
+                                <a href="https://github.com/Yairgg95/Hackaton-generation" class="btn btn-dark btn-lg" target="_blank">
+                                    <i class="fab fa-github me-2"></i> Ver código
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Controles del carrusel -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#proyectosCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+                    <span class="visually-hidden"><!--anterior--></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#proyectosCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+                    <span class="visually-hidden"><!--siguiente--></span>
+                </button>
+            </div>
+        </div>
+    </section>
+    
+<!-- Sección de habilidades -->
+
+    <section id="skills" class="skills py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="text-center mb-5">Mis Habilidades</h2>
+            <div class="row justify-content-center gap-4">
+                <!-- Fila de iconos -->
+                <div class="col-12 d-flex flex-wrap justify-content-center gap-5">
+                    <!-- HTML -->
+                    <div class="skill-item text-center">
+                        <i class="fab fa-html5 fa-4x mb-2" style="color: #E44D26;"></i>
+                        <p>HTML5</p>
+                    </div>
+                    
+                    <!-- CSS3-->
+                    <div class="skill-item text-center">
+                        <i class="fab fa-css3-alt fa-4x mb-2" style="color: #2965F1;"></i>
+                        <p>CSS3</p>
+                    </div>
+                    
+                    <!-- JAVAS -->
+                    <div class="skill-item text-center">
+                        <i class="fab fa-js-square fa-4x mb-2" style="color: #F7DF1E;"></i>
+                        <p>JavaScript</p>
+                    </div>
+                    
+                    <!-- BOOTSTRAP-->
+                    <div class="skill-item text-center">
+                        <i class="fab fa-bootstrap fa-4x mb-2" style="color: #7952B3;"></i>
+                        <p>Bootstrap</p>
+                    </div>
+                    
+                    <!-- GIT -->
+                    <div class="skill-item text-center">
+                        <i class="fab fa-git-alt fa-4x mb-2" style="color: #F05032;"></i>
+                        <p>Git</p>
+                    </div>
+                    
+                    <!-- NODE -->
+                    <div class="skill-item text-center">
+                        <i class="fab fa-node-js fa-4x mb-2" style="color: #68A063;"></i>
+                        <p>Node.js</p>
+                    </div>
+
+                    <!-- JAVA -->
+                     
+                    <div class="skill-item text-center">
+                        <i class="fab fa-java fa-4x mb-2" style="color: #007396;"></i>
+                        <p>Java</p>
+                    </div>
+
+                    <!--  GitHub -->
+                    <div class="skill-item text-center">
+                        <i class="fab fa-github fa-4x mb-2" style="color: #181717;"></i>
+                        <p>GitHub</p>
+                    </div>
+
+                    <!-- Kotlin  -->
+                    <div class="skill-item text-center">
+                        <i class="fas fa-code fa-4x mb-2" style="color: #7F52FF;"></i>
+                        <p>Kotlin</p>
+                    </div>
+
+                    <div class="skill-item text-center">
+                        <i class="fas fa-database fa-4x mb-2" style="color: #4479A1;"></i>
+                        <p>MySQL</p>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través de los siguientes enlaces:</p>
+            <ul class="social-links">
+                <li><a href="www.linkedin.com/in/lmvc-dev" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/LuisMiguelVera" target="_blank">GitHub</a></li>
+                <li><a href="https://wa.me/525624645536" target="_blank">WhatsApp</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 [Tu Nombre]. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+<!-- Vincula el JavaScript del carrusel -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Inicialización manual del carrusel con opciones
+        document.addEventListener('DOMContentLoaded', function() {
+            const myCarousel = new bootstrap.Carousel('#proyectosCarousel', {
+                interval: 10000, // Cambia cada 3 segundos
+                wrap: true,     // Permite el bucle infinito
+                pause: 'hover'  // Pausa al hacer hover
+            });
+        });
+    </script>
+
+
+</body>
+</html>
